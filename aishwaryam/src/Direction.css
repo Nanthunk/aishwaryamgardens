@@ -1,0 +1,134 @@
+.direction-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.direction-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* makes sure arrow stays inside */
+}
+
+.direction-circle:hover {
+  background: #3b3a3a;
+  cursor: pointer;
+}
+
+/* Buttons */
+.dir-btn {
+  position: absolute;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.dir-btn:hover {
+  color: #ffd900;
+}
+
+/* Positioning */
+.north {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.east {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.south {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.west {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Image display */
+.image-container {
+  width: 80vw;
+  max-width: 1200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 75vh;
+  border-radius: 10px;
+  display: block;
+}
+
+/* 📱 RESPONSIVE DESIGN */
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .direction-circle {
+    width: 130px;
+    height: 130px;
+  }
+
+  .dir-btn {
+    font-size: 18px;
+  }
+
+  .image-container img {
+    height: 65vh;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .direction-circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .dir-btn {
+    font-size: 16px;
+  }
+
+  .image-container {
+    width: 95vw;
+  }
+
+  .image-container img {
+    height: 50vh;
+  }
+}
+
+/* Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .direction-circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .dir-btn {
+    font-size: 14px;
+  }
+
+  .image-container img {
+    height: 40vh;
+  }
+}
