@@ -210,6 +210,7 @@
 import React from "react";
 import "./Home.css";
 import img from "./assets/aishwarya.png";
+// import mobileImg from "./assets/aishumedia.png";
 import ContactForm from "./ContactForm";
 import Amenities from "./Amenities";
 import blueprint from "./assets/blueprint.jpg";
@@ -222,6 +223,7 @@ import BootstrapCarousel from "./BootstrapCarousel";
 function Home() {
   return (
     <div className="home">
+      
       <img src={img} alt="Sample" className="home-image" />
 
       <ContactForm />

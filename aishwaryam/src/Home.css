@@ -181,6 +181,9 @@
 
 /* Tablet (≤1024px) */
 @media (max-width: 1024px) {
+
+ 
+
   .overview h1 {
     font-size: 2rem;
   }
@@ -214,7 +217,7 @@
 @media (max-width: 768px) {
 
  .home-image {
-    content: url("./assets/aishumedia.png"); /* mobile-specific image */
+    content: url("./assets/aishumedia.png"); 
   }
 
   .overview h1 {
@@ -268,9 +271,9 @@
 /* Small Mobile (≤480px) */
 @media (max-width: 480px) {
    
-  .home-image {
-    content: url("./assets/aishumedia.png "); /* mobile-specific image */
-  }
+  /* .home-image {
+    content: url("./assets/aishumedia.png ");
+  } */
 
   .overview h1 {
     font-size: 1.5rem;
