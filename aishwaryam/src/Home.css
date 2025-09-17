@@ -212,6 +212,11 @@
 
 /* Mobile (≤768px) */
 @media (max-width: 768px) {
+
+ .home-image {
+    content: url("./assets/aishumedia.png"); /* mobile-specific image */
+  }
+
   .overview h1 {
     font-size: 1.8rem;
     padding-top: 30px;
@@ -262,6 +267,11 @@
 
 /* Small Mobile (≤480px) */
 @media (max-width: 480px) {
+   
+  .home-image {
+    content: url("./assets/aishumedia.png "); /* mobile-specific image */
+  }
+
   .overview h1 {
     font-size: 1.5rem;
     padding-top: 20px;
