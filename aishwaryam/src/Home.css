@@ -9,6 +9,7 @@
   background-position: center;
   height: 100vh;
   width: 100%;
+  /* font-weight: 1000; */
 }
 
 /* Style for content inside */
@@ -66,6 +67,11 @@
   color: #f5be09;
 }
 
+.lifestyle-image {
+  width: 100%;
+  height: 90vh;
+}
+/* 
 .lifestyle {
   background-image: url("./assets/lifestylepic.jpg");
   background-size: cover;
@@ -85,7 +91,7 @@
   max-width: 700px;
   font-size: 1.1rem;
   line-height: 1.6;
-}
+} */
 
 .blueprint img {
   width: 80%;

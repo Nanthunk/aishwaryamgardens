@@ -57,13 +57,13 @@ function Amenities() {
 
   return (
     <div className="amenities">
-      <h1>சிறப்பு அம்சங்கள்</h1>
+      <h1><b>சிறப்பு அம்சங்கள்</b></h1>
 
       <div className="amenities-grid">
         {amenities.map((item, index) => (
           <div key={index} className="amenity-card">
             <img src={item.img} alt={item.name} />
-            <h3>{item.name}</h3>
+            <h3><b>{item.name}</b></h3>
           </div>
         ))}
       </div>
