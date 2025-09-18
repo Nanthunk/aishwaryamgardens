@@ -219,6 +219,7 @@ import FloatingBar from "./FloatingButton";
 import Footer from "./Footer";
 import BootstrapCarousel from "./BootstrapCarousel";
 
+
 //  Home Component
 function Home() {
   return (
@@ -260,6 +261,8 @@ function Home() {
       <BootstrapCarousel />
 
       <Amenities />
+
+      
 
       <div className="lifestyle">
 
