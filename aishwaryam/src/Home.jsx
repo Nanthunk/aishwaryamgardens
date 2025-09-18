@@ -210,17 +210,16 @@
 import React from "react";
 import "./Home.css";
 import img from "./assets/aishwarya.png";
-// import mobileImg from "./assets/aishumedia.png";
 import ContactForm from "./ContactForm";
 import Amenities from "./Amenities";
 import lifestylepic from "./assets/lifestylepic.jpg";
-import blueprint from "./assets/blueprint.jpg";
+// import blueprint from "./assets/blueprint.jpg";
 import DirectionCircle from "./Direction";
 import FloatingBar from "./FloatingButton";
 import Footer from "./Footer";
 import BootstrapCarousel from "./BootstrapCarousel";
 
-// ✅ Now Home Component
+//  Home Component
 function Home() {
   return (
     <div className="home">
@@ -281,21 +280,21 @@ function Home() {
         </center> */}
       </div>
 
-      <div className="blueprint">
+      {/* <div className="blueprint">
         <center>
           
           <h1><b>திட்ட வரைபடம்</b></h1>
           
           <img src={blueprint} alt="blueprint" />
         </center>
-      </div>
+      </div> */}
 
       {/* location + directions remain same */}
       <div className="location-section">
-        <b>
-   <h2 className="location-title">LOCATION</h2>
-   <h1 className="ideal-location">வழிகாட்டி</h1>
-   </b>
+      
+   <h1 className="location-title"> <b> SITE LOCATION</b></h1>
+   {/* <h1 className="ideal-location">வழிகாட்டி</h1> */}
+  
 
    <div className="location-content">
     
@@ -337,7 +336,7 @@ function Home() {
     rel="noopener noreferrer"
     style={{ display: "block", marginTop: "20px", color: "white", textDecoration: "underline" }}
   >
-   <b> 📍 எங்கள் இடம் செல்லும் வழியை அறிய இங்கே தொடவும்</b>
+   <b> 📍எங்கள் இடம் செல்லும் வழியை அறிய இங்கே தொடவும்</b>
   </a>
 </div>
 

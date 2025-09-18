@@ -37,7 +37,7 @@
 }
 
 .highlights {
-  background-color: green;
+  background-color: #4f8693;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,17 +103,18 @@
 
 /* Location Section */
 .location-section {
-  background: #000;
+  background: #4f8693;
   color: white;
   text-align: center;
   padding: 60px 20px;
 }
 
 .location-title {
-  font-size: 1rem;
+  font-size: 3rem;
   letter-spacing: 3px;
-  color: gold;
+  color: rgb(6, 3, 62);
   margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .ideal-location {
@@ -245,7 +246,7 @@
     font-size: 2rem;
   }
 
-  .lifestyle h1 {
+  /* .lifestyle h1 {
     font-size: 2rem;
     padding-top: 30px;
   }
@@ -253,6 +254,9 @@
   .lifestyle p {
     font-size: 1rem;
     padding: 0 15px;
+  } */
+   .lifestyle-image {
+    height: 50vh;
   }
 
   .blueprint img {
@@ -306,13 +310,16 @@
     font-size: 1.5rem;
   }
 
-  .lifestyle h1 {
+  /* .lifestyle h1 {
     font-size: 1.5rem;
     padding-top: 20px;
   }
 
   .lifestyle p {
     font-size: 0.9rem;
+  } */
+   .lifestyle-image {
+    height: 40vh;
   }
 
   .blueprint img {
